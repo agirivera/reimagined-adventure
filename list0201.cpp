@@ -5,7 +5,7 @@
 #include <limits>
 #include <ostream>
 
-int main()
+int MAIN()
 {
     int min(std::numeric_limits<int>::max());
     int max(std::numeric_limits<int>::min());

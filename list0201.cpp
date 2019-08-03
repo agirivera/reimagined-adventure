@@ -15,8 +15,7 @@ int main()
 
     bool any(false);
 
-    while (std::cin >> x)
-    {
+    while (std::cin >> x) {
         any = true;
 
         if (x > max) {

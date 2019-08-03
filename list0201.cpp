@@ -20,6 +20,6 @@ int main()
             max = x;
     }
 
-    if (any)
+    if (x)
         std::cout << "min = " << min << "\nmax = " << max << '\n';
 }

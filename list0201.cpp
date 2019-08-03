@@ -1,4 +1,6 @@
-/// Read the program and determine what the program does.
+/**
+ * Read the program and determine what the program does.
+ */
 
 #include <iostream>
 #include <istream>
@@ -7,19 +9,32 @@
 
 int main()
 {
-    int min(std::numeric_limits<int>::max());
     int max(std::numeric_limits<int>::min());
-    bool any(false);
+    int min(std::numeric_limits<int>::max());
     int x;
+
+    bool any(false);
+
     while (std::cin >> x)
     {
         any = true;
-        if (x < min)
-            min = x;
-        if (x > max)
+
+        if (x > max) {
             max = x;
+        }
+
+        if (x < min) {
+            min = x;
+        }
     }
 
-    if (x)
-        std::cout << "min = " << min << "\nmax = " << max << '\n';
+    if (x) {
+        std::cout << "min = "
+            << min
+            << std::endl;
+
+        std::cout << "max = "
+            << max
+            << std::endl;
+    }
 }

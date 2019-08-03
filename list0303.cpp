@@ -9,7 +9,7 @@ int main()
 {
     int x;
     while (std::cin >> x)
-        if ()  // Fill in the condition
+        if (x % 2)  // Fill in the condition
             std::cout << x << " is odd.\n";
         else
             std::cout << x << " is even.\n";

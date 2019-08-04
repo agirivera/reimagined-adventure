@@ -6,6 +6,9 @@
             "label": "g++ build active file",
             "command": "/bin/g++",
             "args": [
+                "-ansi",
+                "-pedantic",
+                "-Wall",
                 "-g",
                 "${file}",
                 "-o",

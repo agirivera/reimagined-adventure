@@ -1,7 +1,6 @@
 /**
  * Read the program and determine what the program does.
  */
-
 #include <iostream>
 #include <istream>
 #include <limits>

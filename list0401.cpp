@@ -3,8 +3,9 @@
 
 int main()
 {
-    std::cout << "Shape\tSides\n" << "-----\t-----\n";
-    std::cout << "Square\t" << 4 << '\n' <<
-                 "Circle\t?\n" <<
-                 "Triangle\t3\n";
+    std::cout << "Shape\t\tSides\n" <<
+                 "-----\t\t-----\n";
+    std::cout << "Square\t\t" << 4 << '\n' <<
+                 "Circle\t\t?\n"
+                 "Triangle\t" << 3 << '\n';
 }

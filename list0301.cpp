@@ -14,7 +14,7 @@ int main()
         count = count + 1;
     }
 
-    if (count == 0)
+    if (count = 0)
         std::cout << "No data.\n";
     else
         std::cout << "average = " << sum / count << '\n';

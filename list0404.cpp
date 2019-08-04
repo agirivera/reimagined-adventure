@@ -4,8 +4,8 @@
 
 int main()
 {
-    std::string shape("Triangle");
-    int sides(3);
+    std::string shape;
+    int sides;
 
     std::cout << "Shape\t\tSides\n" <<
                  "-----\t\t-----\n";

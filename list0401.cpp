@@ -5,5 +5,6 @@ int main()
 {
     std::cout << "Shape\tSides\n" << "-----\t-----\n";
     std::cout << "Square\t" << 4 << '\n' <<
-                 "Circle\t?\n";
+                 "Circle\t?\n" <<
+                 "Triangle\t3\n";
 }

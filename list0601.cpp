@@ -16,7 +16,7 @@ int main()
   std::cout << "#   #^2\n";
   int x(start);
   end = end + 1; // exit loop when x reaches end 
-  while (x != end)I am not entirely happy with the logic of this. Universily C++ uses one past the end as an end value. Consider adding a statement end = end + 1; Add a comment that you will explain this later but that it is idiomatic C++
+  while (x != end)
   {
     std:cout << x << "   " << x*x << "\n";
     x = x + 1;
